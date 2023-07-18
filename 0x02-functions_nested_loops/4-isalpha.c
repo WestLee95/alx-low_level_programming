@@ -2,19 +2,30 @@
 
 
 /**
- * isalpha - checks for alphabet character
- * @alph: the character to check
+ * test_isalpha - test the isalpha function
  *
- * return: return 1 if character found, 0 if otherwise
+ * @alph: Number to pass to _isalpha function
  */
-int isalpha(int alph)
+void test_isalpha(int alph)
 {
-	if ((alph >= 'a' && alph <= 'z') || (alph >= 'A' && alph <= 'Z'))
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+    int r;
+
+    r = _isalpha(alph);
+    _putchar(r + '0');
+    _putchar('\n');
+}
+
+#include "main.h"
+
+
+
+/**
+ * main - check the code 
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+		test_isalpha('H');
+			return (0);
 }
