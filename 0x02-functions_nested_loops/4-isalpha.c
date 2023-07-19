@@ -2,26 +2,15 @@
 
 
 /**
- * test_isalpha - test the isalpha function
+ * _isalpha - checks for alphabet character
+ *@alph: the character to be checked
  *
- * @alph: Number to pass to _isalpha function
+ * Return: Return 1 if alphabet is found, 0 if otherwise
  */
-void test_isalpha(int alph)
+int _isalpha(int alph)
 {
-    int r;
-
-    r = _isalpha(alph);
-    _putchar(r + '0');
-    _putchar('\n');
-}
-
-/**
- * main - check the code for Holberton School students. 
- *
- * Return: Always 0.
- */
-int main(void)
-{
-		test_isalpha('H');
-			return (0);
+    if ((alph >= 'a' && alph <= 'z') || (alph >= 'A' && alph <= 'Z'))
+        return (1);
+    else
+        return (0);
 }
