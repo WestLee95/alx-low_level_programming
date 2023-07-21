@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-int main()
+
+/**
+ *main - Prints FizzBuzz pattern from 0 to 100
+ *for multiples of 3 Fizz, of 5 Buzz and of 15 FizzBuzz
+
+ *return: returns 0 if successful
+ */
+int main(void)
 {
 	int i;
 
@@ -25,5 +32,5 @@ int main()
 		}
 	}
 	printf("\n");
-	return(0);
+	return (0);
 }
