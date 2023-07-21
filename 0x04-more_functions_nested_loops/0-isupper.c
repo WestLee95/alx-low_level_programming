@@ -9,7 +9,7 @@
  */
 int is_uppercase(char c)
 {
-	if (_isupper (c))
+	if (isupper(c))
 		return (1);
 	else
 		return (0);
