@@ -10,8 +10,8 @@ int main(void)
 {
 	char s[10] = "My School";
 
-	printf("%s\n", s);
+	printf("Original String: %s\n", s);
 	rev_string(s);
-	printf("%s\n", s);
+	printf("Reversed String: %s\n", s);
 	return (0);
 }
