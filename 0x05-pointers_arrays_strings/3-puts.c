@@ -2,8 +2,8 @@
 
 
 /**
- *_puts - prints the string followed by a new line to stdout
- *@str: pointr that refers to the string to be printed
+ *_puts - Prints the string followed by a new line to stdout
+ *@str: This pointer refers to string to be printed
  *
  */
 void _puts(char *str)
@@ -13,3 +13,4 @@ void _puts(char *str)
 		putchar(*str);
 		str++;
 	}
+}
