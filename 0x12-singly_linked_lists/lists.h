@@ -1,6 +1,10 @@
-#ifndef MAIN
-#define MAIN
-#include <stdio.h>
+#ifndef LISTS_H
+#define LISTS_H
+
+/*This header contains a structure and prototypes,
+ * for singly linked lists
+ */
+
 #include <stdlib.h>
 
 /**
