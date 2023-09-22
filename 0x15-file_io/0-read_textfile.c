@@ -24,20 +24,23 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	buffer = malloc(sizeof(char) * letters);
-	if (buffer == NULL) {
+	if (buffer == NULL)
+	{
 		close(fd);
 		return (0);
 	}
 
 	read_count = read(fd, buffer, letters);
-	if (read_count == -1) {
+	if (read_count == -1)
+	{
 		free(buffer);
 		close(fd);
 		return (0);
 	}
 
 	write_count = write(STDOUT_FILENO, buffer, read_count);
-	if (write_count == -1 || write_count != read_count) {
+	if (write_count == -1 || write_count != read_count)
+	{
 		free(buffer);
 		close(fd);
 		return (0);
