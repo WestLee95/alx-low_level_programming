@@ -6,17 +6,17 @@ This directory contains:
 	-The time complexity (worst case) of a binary search in an array of size n.
 	-The space complexity (worst case) of a binary search in an array of size n.
 	-The space complexity of this function / algorithm:
-		int **allocate_map(int n, int m)
+		/*int **allocate_map(int n, int m)
 		{
 		     int **map;
 
-		     map = malloc(sizeof(int *) * n);
+       		     map = malloc(sizeof(int *) * n);
 		     for (size_t i = 0; i < n; i++)
 		     {
 		          map[i] = malloc(sizeof(int) * m);
 		     }
 		     return (map);
-		}
+		}*/
 By the end of these one has achieved the following learning objectives:
 	1.What is a search algorithm.
 	2.What is a linear search.
