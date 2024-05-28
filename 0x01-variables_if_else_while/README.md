@@ -15,3 +15,7 @@ How to use variables with the while loop
 How to print variables using printf
 What is the ASCII character set
 What are the purpose of the gcc flags -m32 and -m64
+
+The following was used to compile files:
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 "4-print_alphabt.c -o 4-print_alphabt"
+Add the name of the file you'd want to compile and the executable respectively.
